@@ -1,17 +1,18 @@
 
-
-//double	num3_double=5.5;
-
-void mymain(void)
+int sumf();
+int mymain(void) {
+  int a1=1;
+  int a2=2;
+  int a3=3;
+  int a4=4;
+  int a5=5;
+  int a6=6;
+  int su;
+  su = sumf(a1,a2,a3,a4,a5,a6);
+  while(1);
+}
+int sumf(int b1,int b2,int b3,int b4,int b5,int b6)
 {
-	int num1=1;
-	int num2=2;
-	int num3=3;
-	int num4=4;
-	int num5=5;
-	int num6=6;
-	num6=num5+num1+num3+num4+num2;
-
-	while (1)
-		;
+  int c = b1+b3+b5+b2+b4+b6;
+  return c;
 }
